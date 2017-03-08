@@ -14,7 +14,7 @@
 #' @examples
 #' # read.rlms("r21i_os24a.sav")
 read.rlms <- function(file, suppress = FALSE, nine2na = TRUE) {
-  message("This function is deprecated. Please use rlms_read instead of.")
+  message("This function is deprecated. Please use rlms_read instead.")
   df <- rlms_read(file = file,
                   suppress = suppress,
                   nine2na = nine2na,
